@@ -1,5 +1,8 @@
+//If you want to understand this code please follow the comment
+
 #include<stdio.h>
 
+//In this function declare the types of book List.
 int Booklist()
 {    printf("\n");
     printf("1. Story\n");
@@ -8,6 +11,7 @@ int Booklist()
     printf("4. Programming Book.\n");
     printf("5. Ethical Hacking.\n");
 }
+//In this function declare the story type of books List.
 int StoryBook()
 {    printf("\n");
     printf("1.Beloved.\n");
@@ -16,6 +20,8 @@ int StoryBook()
     printf("4.A Fine Balance.\n");
     printf("5.Blood Meridian.\n");
 }
+
+//In this function declare the Englsih Literature Books List.
 int EnglishLiteratureBook()
 {        printf("\n");
         printf("1.Oliver Twist.\n");
@@ -23,6 +29,8 @@ int EnglishLiteratureBook()
         printf("3.Northange Abbey.\n");
         printf("4.Sense and Sensibility.\n");
 }
+
+//In this function declare the Bengla Literature Books List.
 int BanglaLiteratureBook()
 {    printf("\n");
     printf("1.Gitanjali.\n");
@@ -32,6 +40,8 @@ int BanglaLiteratureBook()
     printf("5. srikanta.\n");
     printf("6.Shesher Kabita.\n");
 }
+
+//In this function declare the Programming types of books List.
 int ProgrammingBook()
 {    printf("\n");
     printf("1.Python Programming fo the Absolute Beginner.\n");
@@ -41,6 +51,8 @@ int ProgrammingBook()
     printf("5.Eloquent JavaScript.\n");
     printf("6.Structure Programming Language C.\n");
 }
+
+//In this functin declare teh Ethical Hacking book List.
 int EthecalHakingBook()
 {    printf("\n");
     printf("1.Gray Hat Hacking.\n");
@@ -49,7 +61,7 @@ int EthecalHakingBook()
     printf("4.Penetration Testin.\n");
     printf("5.RTFM.\n");
 }
-
+//first story book in this program.
 int AboutBeloved()
 {    printf("\n");
     printf("Book Name   : Beloved.\n");
@@ -60,6 +72,7 @@ int AboutBeloved()
     printf("            : enslaved people whose Cincinnati home is haunted by a malevolent spirit.\n");
     printf("Book price  : 360 Taka.\n");
 }
+//second story book in this program.
 int AboutEmma()
 {    printf("\n");
     printf("Book Name   : Emma.\n");
@@ -70,6 +83,7 @@ int AboutEmma()
     printf("            : Nand involves the relationships among people from a small number of families.\n");
     printf("Book Price  : 250 Taka Only.\n");
 }
+//third story book in this program.
 int AboutJane()
 {    printf("\n");
     printf("Book Name   : Jane.\n");
@@ -78,12 +92,14 @@ int AboutJane()
     printf("            : The first American edition was published the following year by Harper & Brothers of New York.\n");
     printf("Book Price  : 220 Taka only.\n");
 }
+//four story book in this program.
 int AboutAFineBlance()
 {    printf("\n");
     printf("Book Name   : A Fine Blance.\n");
     printf("Writer      : Rohinton Mistry.\n");
     printf("Book Price  : 260 Taka Only.\n");
 }
+//This is the five story type book in this program.
 int BloodMeridian()
 {    printf("\n");
     printf("Book Name   : Blood Meridian.\n");
@@ -93,6 +109,7 @@ int BloodMeridian()
     printf("            : was published by Random House.\n");
     printf("Book Pirce  : 220 Taka Only.\n");
 }
+//this is first class in structure for declare variable.
 struct book{
     char StoryBookName[20];
     int BookNumber[20];
@@ -103,22 +120,25 @@ struct book{
     char EthecalHaking[20];
 
 }book;
+//this is second class for declare variable for story types books.
 struct AboutStoryBook
 {
     char About1[5];
 
 }StoryAbout;
+//this class declare for English Literature book.
 struct AboutEnglishLiteratureBook
 {
     char About[5];
 }EnglishLiteratureBookAbout;
-
+//this is english literature book.
 int AboutOliverTwist()
 {    printf("\n");
     printf("Book Name    : Oliver Twist.\n");
     printf("Writer       : Charles Dickens.\n");
     printf("Book Price   : 160 Taka only.\n");
 }
+//this is is english literature book.
 int AboutAnExperimentInCriticism()
 {    printf("\n");
     printf("Book Name   : An Experiment In Criticism.\n");
@@ -129,6 +149,7 @@ int AboutAnExperimentInCriticism()
     printf("            : To do this, the author describes two kinds of readers.\n");
     printf("Book Price  : 350 Taka Only. \n");
 }
+//this is also english literature book
 int AboutNorthangeAbbey()
 {    printf("\n");
     printf("Book Name   : Nortanger Abbey.\n");
@@ -140,6 +161,7 @@ int AboutNorthangeAbbey()
     printf("            : making it the  first of Austen's novels to be completed in full.\n");
     printf("Book Price  : 350 Taka Only.\n");
 }
+//this is english literature book.
 int AboutSenseandSensibility()
 {    printf("\n");
     printf("Book Name   : Sense And Sensibility.\n");
@@ -150,11 +172,12 @@ int AboutSenseandSensibility()
     printf("            : Elinor and Marianne as they come of age.\n");
     printf("Book Price  : 220 Taka Only.\n");
 }
+//this class declare for variable of bengla Literature books.
 struct AboutBangla
 {
     char About[5];
 }BanglaLiteratureBookAbout;
-
+//this is bengla literature books
 int Gitanjali()
 {    printf("\n");
     printf("Book Name   : Gitanjali.\n");
@@ -162,8 +185,9 @@ int Gitanjali()
     printf("About Book  : A total of 157 poems have been compiled in this book.\n");
     printf("            : The poems are Brahma-bhavapanna devotional works. Rabindranath in most of its poems\n");
     printf("            : He composed himself. These poems were published in various magazines in 1908-09.\n");
-    printf("Book Prize  : 350 Taka Only.\n");
+    printf("Book Price  : 350 Taka Only.\n");
 }
+//this is bengla literature book.
 int BengaliNovels()
 {    printf("\n");
     printf("Book Name   : Bengali Novels\n");
@@ -171,8 +195,9 @@ int BengaliNovels()
     printf("            : But it quickly became an important aspect of Bengali literature.\n");
     printf("            : Written by a non-Bengali and published in 1852 AD, Phul Mani Karuna Abharsa.\n");
     printf("            : is regarded as the first novel in the Bengali language.\n");
-    printf("Book Prize  : 320 Taka Only.\n");
+    printf("Book Price  : 320 Taka Only.\n");
 }
+//this is bengla literature book.
 int NonditoNoroke()
 {    printf("\n");
     printf("Book Nmae   : Nandit Narake.\n");
@@ -181,117 +206,134 @@ int NonditoNoroke()
     printf("            : It was written in 1970 and published in 1972.\n");
     printf("            : Humayun Ahmed wrote the novel while studying in the chemistry department of Dhaka University.\n");
     printf("            : At that time he was a resident student of Haji Muhammad Mohsin Hall of Dhaka University.\n");
-    printf("Book Prize  : 450 Taka.\n");
+    printf("Book Price  : 450 Taka.\n");
 }
+//this is bengla literature book.
 int Lalsalu()
 {    printf("\n");
     printf("Book Name   : Lalsalu\n");
     printf("Writer      : is the debut novel written by Bengali writer Syed Waliullah.\n");
     printf("About Book  : The novel written and published in 1948 is considered as a classical work of Bengali literature.\n");
     printf("            : Although its background is the rural society of Bangladesh in the 1940s or 1950s, its influence or spread is black.\n");
-    printf("Book Prize  : 250 Taka Only.\n");
+    printf("Book Price  : 250 Taka Only.\n");
 }
+//this is bengla literature book.
 int srikanta()
 {    printf("\n");
     printf("Book Name   : Srikanto.\n");
     printf("About Book  : A biographical novel Book by Srikanth Saratchandra Chatterjee.\n");
     printf("Writer      : Srikanth Saratchandra Chatterjee.\n");
-    printf("Book Prize  : 150 Taka Only.\n");
+    printf("Book Price  : 150 Taka Only.\n");
 }
+//this is bengla literature book.
 int ShesherKabita()
 {    printf("\n");
     printf("Book Name   : Shesher Kobita.\n");
     printf("Writer      : Rabindranath Tagore.\n");
     printf("            : This is the second novel of Rabindranath's painting stage.\n");
     printf("            : From 1927 to 1928, the work was published continuously in Pravasi.\n");
-    printf("Book Prize  : 350 Taka Only.\n");
+    printf("Book Price  : 350 Taka Only.\n");
 }
+//this class declare for programming book.
 struct ProgrammingBook
 {
    char About[6];
 
 }ProgrammingBookAbout;
 
+//this is first programming book.
     int PythonProgrammingfotheAbsoluteBeginner()
     {    printf("\n");
         printf("Book Name   : Python Programming For The Absolute Beginner(Third Edition).\n");
         printf("Writer      : Michael Bawson (Research)\n");
         printf("              Professor University of California.\n");
-        printf("Boor Prize  : 350 Taka Only.\n");
+        printf("Boor Price  : 350 Taka Only.\n");
     }
+    //this is second programming book.
     int CPlus()
     {    printf("\n");
         printf("Book Name   : C++ Teach Yourself (Third Edition).\n");
         printf("Writer      : Herbrt Schildt\n");
         printf("              Master Degree in Computer Science From University off Illinois.\n");
-        printf("Book Prize  : 200 Taka Only.\n");
+        printf("Book Price  : 200 Taka Only.\n");
     }
+    //this is third programming book.
     int EffectiveJava()
     {    printf("\n");
         printf("Book Name   : Effective Jave(Second Edition)\n");
         printf("Writer      : Joshua Bloch.\n");
         printf("Education   : Columbia University in Computer Science.\n");
         printf("            : Google Software Enigineer.\n");
-        printf("Book Prize  : 360 Taka Only.\n");
+        printf("Book Price  : 360 Taka Only.\n");
     }
+    // four number programming book.
     int IntroductionToAlgorithms()
     {    printf("\n");
         printf("Book Name   : Introduction To Algorithms.\n");
         printf("Writer      : Ronald Rivest.\n");
         printf("            : Cryptographer and computer scientist.\n");
-        printf("Book Prize  : 350 Taka Only.\n");
+        printf("Book Price  : 350 Taka Only.\n");
     }
+    //five number programmingg book
     int EloquentJavaScript()
    {     printf("\n");
         printf("Book Name   : Eloquent JavaScript.\n");
         printf("Writer      : Marijn Haverbeke.\n");
         printf("            : Expert in JavaScript.\n");
-        printf("Book Prize  : 400 Taka Only.\n");
+        printf("Book Price  : 400 Taka Only.\n");
    }
+   //six number programming book.
     int StructureProgrammingLanguageC()
     {    printf("\n");
         printf("Book Name   : Structure Programming Language C.\n");
         printf("Writer      : Muhammad Muktadir.\n");
-        printf("Book Prize  : 150 Taka Only.\n");
+        printf("Book Price  : 150 Taka Only.\n");
     }
+    //this class declare for Ethcial hacking books.
 struct EathicalHacking
 {
     char About[5];
 }AboutEathicalhacking;
+//first hacking book.
     int GrayHatHacking()
     {   printf("\n");
         printf("Book Name   : Gray Hat Hacking.\n");
         printf("Writer      : Shon Harris.\n");
-        printf("Book Prize  : 260 Taka Only.\n");
+        printf("Book Price  : 260 Taka Only.\n");
     }
+    //second hacking book.
     int EathicalHacking ()
     {   printf("\n");
         printf("Book Name   : Ethical Hacking 'A Hands-on Introduction to Breaking In'.\n");
         printf("Writer      : Deniel G. Graham.\n");
-        printf("Book Prize  : 420 Taka Only.\n");
+        printf("Book Price  : 420 Taka Only.\n");
     }
+    //third hacking book.
     int SocialEngineering()
     {
         printf("\n");
         printf("Book Name   : Social Engineering 'The Science of Human Hacking'.\n");
         printf("Writer      : Christopher J. Handagy.\n");
-        printf("Book Prize  : 280 Taka Only.\n");
+        printf("Book Price  : 280 Taka Only.\n");
     }
+    //four hacking book.
     int PenetrationTestin()
     {
          printf("\n");
         printf("Book Name   : Penetration Testting.\n");
         printf("Writer      : Georgia Weidman.\n");
-        printf("Book Prize  : 390 Taka Only.\n");
+        printf("Book Price  : 390 Taka Only.\n");
     }
+    //five number hacking book.
     int RTFM()
     {   printf("\n");
         printf("Book Name   : RTFM 'Red Team Field Manual'.\n");
         printf("Writer      : Ben Clark.\n");
-        printf("Book Prize  : 450 Taka Only.\n");
+        printf("Book Price  : 450 Taka Only.\n");
     }
 int main()
-{
+{   
+    //declareing variable for looping.
     char c,c2,c3,c4;
      int ch,ch2,ch3,ch4,ch5;
     int choice;
@@ -299,18 +341,20 @@ int main()
     printf("\t\t\tWelcome To Our Book Store.\n\n");
     printf("*********************************Welcome***************************");
     printf("\n \n \n \n");
-
+    //this is main loop.
     do
     {
     printf("Which Type of book you want??\n");
         Booklist();
 
+        //input for selected which type of book he/she want
         printf("Enter your choice : ");
         scanf("%d",&choice);
 
         switch (choice)
         {
         case 1:
+        //if he/she choice 1 than run this loop.
          do
          {
             printf("\n\n\n");
@@ -343,11 +387,13 @@ int main()
             printf("Do you want to contiune Press (y/n) : ");
                 scanf("%c",&f1);
                 scanf("%c",&f1);
+                //if he/she choice y this loop run again. otherwise stop the loop run exit part of first loop.
          } while (f1=='y');
 
 
             break;
         case 2:
+        //if choce 2 in first input function than run the loop.
          do
          {
             printf("\n\n\n");
@@ -379,12 +425,15 @@ int main()
           printf("Do you want to contiune Press (y/n) : ");
                 scanf("%c",&f2);
                 scanf("%c",&f2);
+                //if choice y this loop run again otherwise exit the loop.
          } while (f2=='y');
 
 
-
+            //this break stop the case 2 in first loop
             break;
+            //in 
         case 3:
+        //if the user input 3 in the first loop it will be runing.
             do
             {
             printf("\n\n\n");
@@ -424,8 +473,9 @@ int main()
                 scanf("%c",&f3);
             } while (f3=='y');
 
-
+            //this break stop the case 3 in first loop
             break;
+            //if the user input 4 than run the loop.
         case 4:
             do
             {
@@ -455,15 +505,18 @@ int main()
                 break;
 
                 default:
-                printf("Invalid choice.");
+                printf("Invalid choice.\n");
                 break;
             }
                 printf("Do you want to contiune Press (y/n) : ");
                 scanf("%c",&f4);
                 scanf("%c",&f4);
+                //if input y this loop run again.
             } while (f4=='y');
+            //this break stop the case 4 in first loop
             break;
         case 5:
+        //if the user input 5 than run the loop.
           do
           {
             printf("\n\n\n");
@@ -497,6 +550,7 @@ int main()
             printf("Do you want to contiune Press (y/n) : ");
                 scanf("%c",&f5);
                 scanf("%c",&f5);
+                //if input y this loop run again.
           } while (f5=='y');
 
 
@@ -510,6 +564,7 @@ int main()
         scanf("%c",&c);
         scanf("%c",&c);
         printf("\n***************************************\n");
+        //if input n this loop run again.
     } while (c=='n');
 
     printf("****************Thank You*******************");
